@@ -21,6 +21,7 @@ This project is a complete end-to-end NLP sentiment analysis system that classif
 
 
 ***Project Structure***
+```
 IMDB sentiment analysis/
 │
 ├── app.py # Flask application (API + routing)
@@ -42,7 +43,7 @@ IMDB sentiment analysis/
 │
 ├── train_model.py # Model training & tuning script
 ├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+└── README.md # Project documentation```
 
 **Dataset**
 
@@ -198,8 +199,6 @@ The requirements are intentionally kept minimal for faster setup and deployment.
     Transformer-based models (BERT, RoBERTa)
 
     Model monitoring and logging
-
-**Author**
 
 
 
