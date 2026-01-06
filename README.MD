@@ -23,29 +23,26 @@ This project is a complete end-to-end NLP sentiment analysis system that classif
 ***Project Structure***
 IMDB sentiment analysis/
 │
-├── app.py                              # Flask application (API + routing)
+├── app.py # Flask application (API + routing)
 │
 ├── dataset/
-│   ├── imdb.csv                        # Raw IMDb dataset
-│   └── imdb_cleaned.csv                # Cleaned & preprocessed dataset
+│ ├── imdb.csv # Raw IMDb dataset
+│ └── imdb_cleaned.csv # Cleaned & preprocessed dataset
 │
 ├── model/
-│   ├── logistic_regression_model.pkl   # Trained Logistic Regression model
-│   └── tfidf_vectorizer.pkl            # TF-IDF vectorizer
+│ ├── logistic_regression_model.pkl # Trained Logistic Regression model
+│ └── tfidf_vectorizer.pkl # TF-IDF vectorizer
 │
 ├── templates/
-│   └── index.html                      # Frontend HTML 
+│ └── index.html # Frontend HTML
 │
 ├── static/
-│   ├── style.css                       # CSS styling
-│   └── script.js                       # Frontend JavaScript
+│ ├── style.css # CSS styling
+│ └── script.js # Frontend JavaScript
 │
-├── train_model.py                      # Model training & tuning script
-│
-├── requirements.txt                    # Python dependencies
-│
-└── README.md                           # Project documentation
-
+├── train_model.py # Model training & tuning script
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
 **Dataset**
 
@@ -135,7 +132,7 @@ After comparison and tuning, Logistic Regression was selected due to:
     This ensures the model does not make misleading predictions on weak inputs.
 
 ### Prediction Result
-![Prediction Result](screenshots\example.png)
+![Prediction Result](screenshots/example.png)
 
 **Installation & Setup**
 1.  Clone the repository
@@ -152,8 +149,8 @@ After comparison and tuning, Logistic Regression was selected due to:
 4.  Run the Flask application
     python app.py
 
-## home page
-![Home page](screenshots\homepage.png)
+### Home Page
+![Home Page](screenshots/homepage.png)
 
 
 ***Open in browser:***
@@ -206,8 +203,10 @@ The requirements are intentionally kept minimal for faster setup and deployment.
 
 
 
-Omkar Mahanandia
-Master of Computer Applications (MCA)
-Interests: Machine Learning, NLP, Full-Stack Development
+## Author
+
+- **Name:** Omkar Mahanandia  
+- **Degree:** Master of Computer Applications (MCA)  
+- **Interests:** Machine Learning, NLP, Full-Stack Development
 
 
